@@ -3,7 +3,7 @@ import assemblyai as aai
 
 # Set the page title and icon
 st.set_page_config(
-    page_title="Audio to Text Converter",
+    page_title="Speech to Text Converter",
     page_icon="🎤",
     layout="centered",
 )
@@ -21,7 +21,7 @@ def speech_to_text(url="https://storage.googleapis.com/aai-web-samples/espn-bear
 
 # Define the Streamlit app
 def main():
-    st.title("Audio to Text Converter")
+    st.title("Speech to Text Converter")
 
         # Summary message explaining the functionality
     st.markdown(
